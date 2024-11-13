@@ -1,0 +1,9 @@
+[
+  "etl_sanity_checks.py::test_checkDuplicates",
+  "etl_sanity_checks.py::test_check_duplicates",
+  "etl_sanity_checks.py::test_dat_completeness",
+  "etl_sanity_checks.py::test_dataCompleteness",
+  "etl_sanity_checks.py::test_deptNoForNullValueCheck",
+  "etl_sanity_checks.py::test_deptno_for_null_value_check",
+  "etl_sanity_checks.py::test_eno_for_unique_value_check"
+]

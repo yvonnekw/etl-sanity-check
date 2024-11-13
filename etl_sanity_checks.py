@@ -25,6 +25,6 @@ def test_deptno_for_null_value_check():
 # Test if eno is always a primary key
 def test_eno_for_unique_value_check():
     target_df = pd.read_csv("employee_dept_no_copy_tgt.csv")
-    totalCount = target_df["Eno"].count()
-    deptNoUniqueValueCount = len(target_df["Eno"].unique())
+    totalCount = target_df["eno"].count()
+    deptNoUniqueValueCount = len(target_df["eno"].unique())
     assert totalCount == deptNoUniqueValueCount, "eno column values are not unique - please check"
