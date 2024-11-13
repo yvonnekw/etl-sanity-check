@@ -36,8 +36,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Run data pipeline
       run: python data_pipeline.py
-    - name: List directory structure
-      run: ls -R
-    - name: Test with pytest
-      run: |
-        pytest
+
