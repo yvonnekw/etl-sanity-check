@@ -1,5 +1,5 @@
 import pandas as pd
-source = pd.read_csv("/Users/yvonnek/anaconda3/pkgs/data/employee_sal.csv")
+source = pd.read_csv("employee_sal.csv")
 print("Test Case 1: Following are the column names in the source file : \n")
 print(source.columns)
 print("\n")
@@ -15,7 +15,7 @@ print(source.duplicated().sum())
 print("\n")
 
 print("Test Case 5: Duplicate records saved in the file below \n")
-dupes = source[source.duplicated()].to_csv("/Users/yvonnek/anaconda3/pkgs/data/employee_dupli2.csv")
+dupes = source[source.duplicated()].to_csv("employee_dupli2.csv")
 print("\n")
 
 print("Test Case 6: Check if NULL value exist in dept_name column \n")
